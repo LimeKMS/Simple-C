@@ -4,21 +4,22 @@
 
 int main()
 {
+    printf("Welcome to Prime Tester\n\n");
+
+  do{
     int input;
     int isPrime = 1;
     
     // Get user input
-    printf("Welcome to Prime Tester\n\n");
+    
     printf("Enter a number between 0 and 100: ");
     scanf("%d", &input);
-    
-// The code above this comment has been assembled by the professor
     
     // Test for valid input
     if(input < 0 || input > 100)
     {
-        printf("Error: Invalid input for Prime Tester\n");
-        exit(0);
+        printf("\nError: Invalid input for Prime Tester\n\n");
+        continue;
     }
     
     
@@ -55,4 +56,5 @@ int main()
     }
 
     return 0;
+  }while(0 < 1);
 }
