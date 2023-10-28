@@ -6,7 +6,7 @@ int main()
 {
     printf("Welcome to Prime Tester\n\n");
 
-  do{
+  do{  //Loops until the user inputs a valid answer
     int input;
     int isPrime = 1;
     
