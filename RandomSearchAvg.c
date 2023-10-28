@@ -1,6 +1,6 @@
 /**********************************************************
- * This is a submission for Exam 3B, Scanning Array/Avg.  *
- * By: n01450656                                          *
+ * This is an improvement on the random search program    *
+ * By: Liam Rigney                                        *
  * Date 11/13/2020                                        *
  **********************************************************/
 #include <stdio.h>
